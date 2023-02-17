@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Hiragino Mincho Pro W6";
+  src: local("Hiragino Mincho Pro W6"),
+    url("./assets/fonts/Hiragino\ Mincho\ Pro\ W6.otf") format("truetype");
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Mincho Pro W6" !important;
+}
+
+.center-logo {
+  top: 50px;
+}
+
+.center-logo img {
+  width: 100%;
+  aspect-ratio: 25/3;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
+
+.banners {
+  columns: 3 200px;
+  column-gap: 0px;
+}
+
+.banners img {
+  width: 100%;
+}
+
+.footer {
+  background-image: url('./assets/images/footer-bg/bg.png');
+}
