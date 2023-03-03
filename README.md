@@ -1,1 +1,7 @@
-An e-commerce website personal project using ReactJS and TypeScript with TailwindCSS Library.
+A personal project about e-commerce website.
+
+Tools Used:
+
+ReactJS
+TypeScript 
+TailwindCSS Library
